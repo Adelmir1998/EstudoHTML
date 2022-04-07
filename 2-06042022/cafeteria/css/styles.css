@@ -19,9 +19,9 @@ zero(0) e realizar o ajuste das caixas em html
 header {
   height: 300px; /*aplicar a altura ao cabeçalho*/
   /*aplicar imagem de fundo ao cabecalho*/
-  background-image: url("../img/fundo2.jpg");
+  background-image: url("../img/fundo4.jpg");
   /*ajustar o tamanho da imagem de fundo*/
-  background-size: 100% cover;
+  background-size: 100%;
   /*alterar a posição vertical da imagem*/
   background-position-y: -515px;
   padding: 130px;
@@ -30,7 +30,7 @@ header {
 
 h1 {
   font-family: verdana;
-  font-size: 60pt;
+  font-size: 40pt;
   color: white;
   /*vamos aplocar uma sombra:
    -Primeiro elemento é a posição horizontal da sombra;
@@ -43,7 +43,7 @@ h1 {
 
 /*Vamos fazer a formatação da barra de navegação da nav */
 nav {
-  background-color: burlywood;
+  background-color: black;
   padding: 10px;
   text-align: center;
 }
@@ -54,8 +54,56 @@ nav ul li {
   margin: 5px;
 }
 nav ul li a {
-  color: black;
-  font-family: arial;
+  color: white;
+  font-family: verdana;
   /*tirar o sublinhado*/
   text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+footer {
+  background-color: black;
+  /* Permitir com que o rodapé fique com seu 
+  conteúdo flexível */
+  display: flex;
+  /* Dispor o conteúdo em linha */
+  flex-direction: row;
+  /* Ajustar o conteúdo ao centro com Justify-Content e Align-intens */
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+}
+
+#endereco {
+  font-family: verdana;
+  /* font-family font, tipo de font */
+  font-size: 12pt;
+  /* font-size: tamanho da font; */
+  color: white;
+  /* color: cor da font */
+  width: 300px;
+  text-align: center;
+}
+
+#redes {
+  position: absolute;
+  right: 50px;
+}
+
+#redes ul {
+  /* Retirar as bolinhas de marcação */
+  list-style: none;
+}
+
+/* Vamos dispor a imagens das redes
+em linha com display inline-block */
+#redes ul li {
+  display: inline-block;
+  margin: 10px;
+}
+#redes ul li a img {
+  width: 40px;
+  height: 40px;
 }
