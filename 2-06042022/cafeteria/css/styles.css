@@ -62,7 +62,6 @@ nav ul li a {
 
 main {
   padding: 20px;
-  background-color: rgb(61, 27, 27);
 }
 footer {
   background-color: black;
@@ -266,7 +265,7 @@ h6 {
 }
 h2 {
   font-family: verdana;
-  color: white;
+  color: black;
   font-size: 15pt;
 }
 
