@@ -252,3 +252,22 @@ h6 {
 }
 
 /* ================= fim da pagina cardápio================= */
+
+/* =================Início do estilo do Mapa================ */
+
+#mapa {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#mapa iframe {
+  width: 100%;
+  height: 500px;
+}
+h2 {
+  font-family: verdana;
+  color: white;
+  font-size: 15pt;
+}
+
+/* ==================Fim do estilo do Mapa================== */
