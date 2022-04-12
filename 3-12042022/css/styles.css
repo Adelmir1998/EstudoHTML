@@ -1,0 +1,77 @@
+/* Classe para alterar a cor do plano de fundo*/
+.bgRed {
+  background-color: red;
+}
+.bgYellow {
+  background-color: yellow;
+}
+.bgBlack {
+  background-color: black;
+}
+/* Classe para a cor do texto */
+.txtRed {
+  color: red;
+}
+.txtWhite {
+  color: white;
+}
+.txtYellow {
+  color: yellow;
+}
+.txtBlack {
+  color: black;
+}
+.titulo1 {
+  font-family: verdana; /* Tipo da font */
+  font-size: 30pt; /* Tamanho da font */
+  font-weight: bold; /* Letra em negrito */
+}
+.titulo1 {
+  font-family: verdana; /* Tipo da font */
+  font-size: 25pt; /* Tamanho da font */
+  font-weight: bold; /* Letra em negrito */
+}
+.titulo1 {
+  font-family: verdana; /* Tipo da font */
+  font-size: 18pt; /* Tamanho da font */
+  font-weight: bold; /* Letra em negrito */
+}
+
+/* Classes para formatar blocos de texto */
+.txt1 {
+  font-family: arial;
+  font-size: 12pt;
+  line-height: 25px; /* Espaçamento entre linhas */
+  text-align: justify; /* Alinhamento de Texto */
+}
+.txt2 {
+  font-family: arial;
+  font-size: 10pt;
+  line-height: 25px; /* Espaçamento entre linhas */
+  text-align: justify; /* Alinhamento de Texto */
+}
+
+/* Classes para imagens */
+.img100 {
+  width: 100%;
+  height: auto;
+}
+.img80 {
+  width: 80%;
+  height: auto;
+}
+.img60 {
+  width: 60%;
+  height: auto;
+}
+.img40 {
+  width: 40%;
+  height: auto;
+}
+.anima {
+  transition: ease 0.5s;
+}
+.anima:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
